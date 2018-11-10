@@ -1,0 +1,14 @@
+name: dog
+channels:
+- defaults
+dependencies:
+- jupyter
+- jupyterlab
+- keras
+- matplotlib
+- numpy
+- opencv
+- pillow
+- scikit-learn
+- tensorflow-gpu
+- tqdm
