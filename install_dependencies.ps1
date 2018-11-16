@@ -44,4 +44,7 @@ Remove-Item lfw.zip
 echo 'Downloading VGG-16 bottleneck features'
 downloadFile 'https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogVGG16Data.npz' "$pwd\bottleneck_features\DogVGG16Data.npz"
 
+echo 'Downloading ResNet-50 bottleneck features'
+downloadFile 'https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogResnet50Data.npz' "$pwd\bottleneck_features\DogResnet50Data.npz"
+
 echo 'Done'

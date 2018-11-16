@@ -19,4 +19,7 @@ mkdir -p bottleneck_features
 cd bottleneck_features
 wget https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogVGG16Data.npz
 
+echo 'Downloading ResNet-50 bottleneck features'
+wget https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogResnet50Data.npz
+
 echo 'Done'
