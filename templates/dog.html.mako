@@ -37,10 +37,10 @@
         <div class="card-body">
           % if pic_type == 'dog':
             <h4>This dog looks like a <b>${breed | h}</b></h4>
-            <p>Woof woof!</p>
+            <p>Woof woof! 🐶🐶</p>
           % elif pic_type == 'human':
             <h4>You look like the breed <b>${breed | h}</b></h4>
-            <p>You dog, you!</p>
+            <p>You dog, you! 😀😀</p>
           % else:
             <h4>We didn't see any humans or dogs in this photo 😢</h4>
             <p>Please try uploading a photo where the face of a human or a dog is clearly visible</p>
