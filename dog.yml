@@ -5,6 +5,7 @@ dependencies:
 - jupyter
 - jupyterlab
 - keras
+- mako
 - matplotlib
 - numpy
 - opencv
