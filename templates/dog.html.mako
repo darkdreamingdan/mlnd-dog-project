@@ -4,6 +4,7 @@
     pic_type (str): Type of picture, either 'dog', 'human' or 'error'
     img_content (str): base64 encoded image to be displayed to the user
     timestamp (str): Timestamp to be displayed at the bottom of the output
+    breed (str): The breed that was predicted to display to the user
 -->
 
 <% 
