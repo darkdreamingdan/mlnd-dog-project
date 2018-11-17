@@ -37,7 +37,7 @@ def generate_result(pic_type, img_path, predicted_breed):
 def display_result(pic_type, img_path, predicted_breed):
     """
     Show the result in a Jupyter Notebook of the result of the predicted dog
-    breed
+    breed.  Does not support MS Edge or IE.
     
     Args:
         pic_type (str): Type of picture, either 'dog', 'human' or 'error'
