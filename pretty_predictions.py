@@ -5,7 +5,7 @@ from IPython.core.display import display
 from IPython.display import IFrame 
 from mako.lookup import TemplateLookup
 
-def generate_result(pic_type, img_path, predicted_breed):
+def generate_result(pic_type, img_path, predicted_breed=''):
     """
     Generate a result of predicted dog breed for display in Jupyter Notebook.
     Args:
@@ -34,7 +34,7 @@ def generate_result(pic_type, img_path, predicted_breed):
 
     return f'data:text/html;base64,{base64.b64encode(raw_html).decode()}'
 
-def display_result(pic_type, img_path, predicted_breed):
+def display_result(pic_type, img_path, predicted_breed=''):
     """
     Show the result in a Jupyter Notebook of the result of the predicted dog
     breed.  Does not support MS Edge or IE.
@@ -47,6 +47,6 @@ def display_result(pic_type, img_path, predicted_breed):
     display(IFrame(
         src=generate_result(pic_type, img_path, predicted_breed), 
         width=400, 
-        height=530 if pic_type == 'error' else 480
+        height=540 if pic_type == 'error' else 500
     ))
     

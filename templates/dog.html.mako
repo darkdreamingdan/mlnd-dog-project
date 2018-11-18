@@ -36,10 +36,10 @@
         <img class="card-img-bottom rounded mx-auto d-block" style="max-width: 224px; max-height:224px; height:auto; width:auto;"  src="data:image/image;base64,${img_content | u}" alt="Submitted Image">
         <div class="card-body">
           % if pic_type == 'dog':
-            <h4>This dog looks like a <b>${breed | h}</b></h4>
+            <h4>This dog looks like a <br><b>${breed | h}</b></h4>
             <p>Woof woof! 🐶🐶</p>
           % elif pic_type == 'human':
-            <h4>You look like the breed <b>${breed | h}</b></h4>
+            <h4>You look like the breed <br><b>${breed | h}</b></h4>
             <p>You dog, you! 😀😀</p>
           % else:
             <h4>We didn't see any humans or dogs in this photo 😢</h4>

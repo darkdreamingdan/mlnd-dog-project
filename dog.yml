@@ -2,9 +2,10 @@ name: dog
 channels:
 - defaults
 dependencies:
+- python=3
 - jupyter
 - jupyterlab
-- keras
+- keras=2.1.6 # ResNet50 bottleneck features are not 2.2.0 compatible
 - mako
 - matplotlib
 - numpy
