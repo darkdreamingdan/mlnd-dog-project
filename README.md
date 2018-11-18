@@ -42,3 +42,7 @@
 	```
 	jupyter notebook dog_app.ipynb
 	```
+
+# Additional Information
+
+Note, the result output does not work in Internet Explorer or MS Edge.  Please use another browser (e.g. Chrome or Firefox).
